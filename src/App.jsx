@@ -1,10 +1,10 @@
 import './App.css'
 
-import StartScreen from './components/startScreen'
 import { useState, useCallback, useEffect } from 'react'
 import { wordsList } from './data/words'
 import Game from './components/Game'
 import GameOver from './components/GameOver'
+import StartScreen from './components/StartScreen'
 
 const stages = [
   { id: 1, name: 'start' },
