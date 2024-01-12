@@ -102,9 +102,6 @@ function App() {
       startGame()
     }
 
-
-    console.log(uniqueLetters);
-
   }, [guessedLetters, letters, startGame]) 
 
 
